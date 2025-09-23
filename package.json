@@ -2,6 +2,7 @@
   "name": "dinomeat-webapp",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://tymcio350-cpu.github.io/CDC"
   "scripts": {
     "dev": "vite",
     "build": "vite build",
