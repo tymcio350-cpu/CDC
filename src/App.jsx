@@ -40,7 +40,7 @@ const FERN_DINOS = [
 const QUEST_TEMPLATES = [
   {
     id: "q_clicks",
-    title: "Tap {target} times",
+    title: "kliknij {target} razy",
     type: "clicks",
     baseTarget: 200,
     baseReward: { meat: 500 },
