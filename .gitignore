@@ -1,0 +1,28 @@
+=== Node / frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+=== Backend / Cloudflare Worker ===
+backend/node_modules/
+backend/.wrangler/state/
+backend/.env
+backend/.DS_Store
+
+=== System / OS ===
+.DS_Store
+Thumbs.db
+
+=== Logs ===
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+=== Editor / IDE ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

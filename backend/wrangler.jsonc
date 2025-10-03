@@ -1,0 +1,18 @@
+{
+  // Wrangler config (JSONC). Zapisz jako backend/wrangler.jsonc
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mygame-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2025-10-03",
+
+  // D1 binding: binding = nazwa używana w kodzie (env.DB)
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mygame-db",
+      "database_id": "c0bfcc3a-7c6f-46d4-a4a2-17c36a0133a8"
+    }
+  ]
+
+  // Jeśli chcesz dodać secrets/vars later, zrób to przez wrangler secret put / wrangler kv:key put
+}
